@@ -27,7 +27,7 @@ Pagina
     - será uma página
     
 Animções
-    -
-    -
+    - Movimentação do carrocel de projetos
+    - Alteração do tamanho dos link e projetos ao terem o mouse encima
 
     
