@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brayan Nunez</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,8 +28,8 @@
     <!--Divs para cada seção da página, home, sobre, contato, projeto-->
     <!--Div para a seção home, com uma foto de perfil-->
     <div class="Home" id="home">
-        <div class="Foto"><img src="img/pablito.jpeg"
-                alt="Foto de Perfil, foto de um pingui de uma serie animada chamada backardigans, personagem Pablo">
+        <div class="Foto"><img src="img/pablito.jpeg" title="Pablito"
+                alt="Foto de Perfil, foto de um pinguin de uma serie animada chamada backardigans, personagem Pablo">
         </div>
         <div class="Nome">
             <H1>Brayan Nunez Mendoza</H1>
@@ -36,10 +37,24 @@
     </div>
     <!--Div para a seção sobre, com uma breve descrição sobre mim-->
     <div class="Sobre" id="sobre">
-        <h2>Em busca de Vaga FullStack</h2>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat similique sequi error, repudiandae
-            porro laborum praesentium labore fugiat deserunt officia culpa consequatur, neque recusandae hic ducimus
-            ratione iste voluptas.</h2>
+        <h2>Sobre mim</h2>
+        <div class="Profissao">
+            <h2>Em busca de Desenvolvedor FullStack</h2>
+        </div>
+        <div class="TextoSobre">
+            Cursando o 4 semestre em analise e desenvolvimento de sistemas
+        </div>
+        <div class="lingagens">
+            <h2>Linguagens de programação</h2>
+            <ul class="lingagens-lista">
+                <li><img class="linguagensIcon" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/java.svg" alt="Java">
+                </li>
+                <li><img class="linguagensIcon" src="https://www.svgrepo.com/show/376344/python.svg" alt="Python"></li>
+                <li><img class="linguagensIcon" src="https://imgs.search.brave.com/6jH8WVRV74YArvf6PEnEu1xRDRPF80Sj_tH5nK15NmA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91eHdp/bmcuY29tL3dwLWNv/bnRlbnQvdGhlbWVz/L3V4d2luZy9kb3du/bG9hZC9icmFuZHMt/YW5kLXNvY2lhbC1t/ZWRpYS9odG1sLWlj/b24ucG5n"
+                        alt="html"></li>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <div class="Contato" id="contato">
@@ -47,15 +62,14 @@
         <h3>Telefone: (11) 99999-9999</h3>
         <h3>Email: email@gmail.com</h3>
     </div>
+
     <div class="Projetos" id="projetos">
-        <div class="ProjetoSpring">
-            <div class="FotoSpring"><img src="img/sping.webp" alt="imagem Spring "></div>
-            <div class="textoSpring">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur sunt
-                minima, laudantium modi ipsum voluptatem id similique ad perspiciatis sit est dicta necessitatibus
-                magnam aperiam earum incidunt asperiores. Impedit!</div>
-            <!--Link para o projeto spring, com a classe linkSpring-->
+        <div class="Portifolio">
+            <div class="FotoPortifolio"><img src="img/purple.webp" alt="Imagem roxa " title="Projeto Portifolio"></div>
+            <div class="textoSpring">incidunt asperiores. Impedit!</div>
             <!--Link temporareo, teste-->
             <div class="linkSpring"><a href="https://spring.io/">projeto spring</a></div>
+            <div class="LinkGit">link para o git</div>
         </div>
     </div>
 </body>
